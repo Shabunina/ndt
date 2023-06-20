@@ -207,7 +207,9 @@ font-size: 26px;
 }
 
 
-
+.photos img:hover {
+  width: 500px;
+}
 
 h4 {
   font-family: 'Cheque-Black', 'Times New Roman', serif;
@@ -303,6 +305,10 @@ margin-bottom: 20px;
 .about a {
   font-weight: bold;
   color:#000C46;
+}
+
+.about p {
+  margin-left: 40px;
 }
 
 h2 span {

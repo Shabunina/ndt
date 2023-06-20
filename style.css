@@ -1,4 +1,5 @@
 body {
+  min-width: 1600px;
   margin: 0;
   padding: 0;
   color: #000C46;
@@ -9,7 +10,7 @@ body {
 }
 
 main {
-
+  width: 1600px;
   margin: 0;
 
 }
@@ -18,9 +19,15 @@ h1, h2, h3 {
   font-family: 'Anticva-Regular';
 }
 
+.month {
+  font-size: 1.3vw;
+
+}
+
 .site-header {
+  margin: 0;
   height: 280px;
-  width: 100%;
+  width: 1600px;
   background-color: #000C46;
   color: white;
 }
@@ -82,11 +89,12 @@ margin-right: 60px;
 
 .site-footer {
   background-color: #000C46;
-  width: 100%;
+  width: 1600px;
   height: 150px;
   padding: 20px;
   color: white;
   margin-top: 20px;
+  box-sizing: border-box;
 }
 
 .site-footer a {
@@ -298,83 +306,85 @@ h2 span {
   font-size: 1.3vw;
 }
 
-@media (min-width: 1200px) {
 
-  main {
-font-size: 18px;
 
-  }
+    @font-face {
+      font-family: Cheque-Regular;
+      src: url(fonts/Cheque-Regular.otf);
+      font-weight: 400;
+    }
 
-  .greeting img {
-    width: 330px;
-  }
+    @font-face {
+      font-family: Cheque-Regular;
+      src: url(fonts/Cheque-Regular.otf);
+      font-weight: 700;
+    }
 
-  .greeting {
-    display:grid;
-    grid-template-columns: 330px 1fr 330px;
-  justify-content: space-between;
-    margin: 40px;
-    gap: 10px;
-    ;
-  }
+    @font-face {
+      font-family: Cheque-Black;
+      src: url(fonts/Cheque-Black.otf);
+      font-weight: 400;
+    }
 
-  .greeting p {
-    font-size: 1.7vw;
+    @font-face {
+      font-family: Cheque-Black;
+      src: url(fonts/Cheque-Black.otf);
+      font-weight: 700;
+    }
+    @font-face {
+      font-family: "Anticva-Regular";
+      src: url(fonts/Anticva-Regular.otf);
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "Anticva-Regular";
+      src: url(fonts/Anticva-Regular.otf);
+      font-weight: 700;
+    }
+
+    @font-face {
+      font-family: "antiqua_alfont";
+      src: url(fonts/antiqua_alfont.ttf);
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: "antiqua_alfont";
+      src: url(fonts/antiqua_alfont.ttf);
+      font-weight: 700;
+    }
+
+    @media (min-width: 1200px) {
+
+      main {
+    font-size: 18px;
+    
       }
     
-    .greeting-text {
-      padding: 0 10px 0 0;
-      text-align:center;
-    }
+      .greeting img {
+        width: 330px;
+      }
     
-    .greeting-text h2 {
-      font-size: 2vw;
-    }
-  }
-
-
-    @font-face {
-      font-family: Cheque-Regular;
-      src: url(fonts/Cheque-Regular.otf);
-      font-weight: 400;
-    }
-
-    @font-face {
-      font-family: Cheque-Regular;
-      src: url(fonts/Cheque-Regular.otf);
-      font-weight: 700;
-    }
-
-    @font-face {
-      font-family: Cheque-Black;
-      src: url(fonts/Cheque-Black.otf);
-      font-weight: 400;
-    }
-
-    @font-face {
-      font-family: Cheque-Black;
-      src: url(fonts/Cheque-Black.otf);
-      font-weight: 700;
-    }
-    @font-face {
-      font-family: "Anticva-Regular";
-      src: url(fonts/Anticva-Regular.otf);
-      font-weight: 400;
-    }
-
-    @font-face {
-      font-family: "Anticva-Regular";
-      src: url(fonts/Anticva-Regular.otf);
-      font-weight: 700;
-    }
-
-    @font-face {
-      font-family: "antiqua_alfont";
-      src: url(fonts/antiqua_alfont.ttf);
-      font-weight: 400;
-    }
-    @font-face {
-      font-family: "antiqua_alfont";
-      src: url(fonts/antiqua_alfont.ttf);
-      font-weight: 700;
-    }
+      .greeting {
+        display:grid;
+        grid-template-columns: 330px 1fr 330px;
+      justify-content: space-between;
+        margin: 40px;
+        gap: 10px;
+        ;
+      }
+    
+      .greeting p {
+        font-size: 1.7vw;
+          }
+        
+        .greeting-text {
+          padding: 0 10px 0 0;
+          text-align:center;
+        }
+        
+        .greeting-text h2 {
+          font-size: 2vw;
+        }
+      }
+    

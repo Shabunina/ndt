@@ -304,8 +304,6 @@ font-size: 18px;
 
   }
 
-  .site-header {
-
   }
   .greeting img {
     width: 330px;
@@ -333,6 +331,13 @@ font-size: 18px;
       font-size: 2vw;
     }
   }
+
+  @media (min-width: 1500px) {
+
+    .site-header {
+    height: 320px;
+    }
+    }
     @font-face {
       font-family: Cheque-Regular;
       src: url(fonts/Cheque-Regular.otf);

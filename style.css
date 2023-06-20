@@ -19,8 +19,8 @@ h1, h2, h3 {
 }
 
 .site-header {
-  height: 300px;
-  width: auto;
+  height: 280px;
+  width: 100%;
   background-color: #000C46;
   color: white;
 }
@@ -81,7 +81,7 @@ margin-right: 60px;
 
 .site-footer {
   background-color: #000C46;
-  width: auto;
+  width: 100%;
   height: 150px;
   padding: 20px;
   color: white;

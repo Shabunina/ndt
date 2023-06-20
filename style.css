@@ -165,12 +165,12 @@ font-size: 26px;
 
   
     .greeting img {
-      width: 330px;
+      width: 500px;
     }
   
     .greeting {
       display:grid;
-      grid-template-columns: 330px 1fr 330px;
+      grid-template-columns: 500px 1fr 500px;
     justify-content: space-between;
       margin: 40px;
       gap: 10px;

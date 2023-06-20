@@ -29,6 +29,7 @@ h1, h2, h3 {
   font-family: 'Cheque-Regular', 'Times New Roman', serif;
   direction: rtl;
   padding-right: 40px;
+  font-size: 1.2vw;
 }
 
 .container {
@@ -41,19 +42,18 @@ transform: rotate(-20deg);
 transform-origin: center;
 padding: 75px;
 padding-right: 50px;
-
 }
 
 .ndt {
   font-family: 'Cheque-Regular', 'Times New Roman', serif;
-font-size: 100px;
-text-decoration: none;
+    font-size: 5vw;
+    text-decoration: none;
 color: white;
 }
 
 .ndt-name pre {
   font-family: 'Cheque-Regular', 'Times New Roman', serif;
-  font-size: 40px;
+  font-size: 2.5vw;
   transform: rotate(-10deg);
   padding-top: 20px;
 }

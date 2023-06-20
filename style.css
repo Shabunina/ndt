@@ -1,0 +1,380 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #000C46;
+  font-family: "antiqua_alfont", "Times New Roman", serif;
+  font-size: 1.2vw;
+  line-height: 200%;
+  text-transform: none;
+}
+
+main {
+
+  margin: 0;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Anticva-Regular';
+}
+
+.site-header {
+  height: 300px;
+  width: auto;
+  background-color: #000C46;
+  color: white;
+}
+
+.contacts {
+  font-family: 'Cheque-Regular', 'Times New Roman', serif;
+  direction: rtl;
+  padding-right: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+transform: rotate(-20deg);
+transform-origin: center;
+padding: 75px;
+padding-right: 50px;
+
+}
+
+.ndt {
+  font-family: 'Cheque-Regular', 'Times New Roman', serif;
+font-size: 110px;
+text-decoration: none;
+color: white;
+}
+
+.ndt-name pre {
+  font-family: 'Cheque-Regular', 'Times New Roman', serif;
+  font-size: 40px;
+  transform: rotate(-10deg);
+  padding-top: 20px;
+}
+
+.menu ul {
+display: flex;
+justify-content: space-between;
+list-style: none;
+margin-right: 60px;
+}
+
+.menu a {
+  color: white;
+  border: 1px solid white;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-family: 'Cheque-Regular', 'Times New Roman', serif;
+
+}
+
+.menu a:hover {
+  background-color: rgb(188, 192, 207, 0.7);
+}
+
+
+.site-footer {
+  background-color: #000C46;
+  width: auto;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.site-footer a {
+  color: white;
+  font-family: 'Cheque-Regular', 'Times New Roman', serif;
+
+}
+
+
+
+.about .photos {
+float: left;
+margin-top: 0;
+margin-right: 25px;
+margin-bottom: 0px;
+margin-left: 40px;
+}
+
+
+.studia .photos_studia {
+  float: left;
+  margin-top: 0;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  margin-left: 0;
+
+}
+
+.afisha .photos {
+  float: left;
+  margin-bottom: 15px;
+  margin-top: 0;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  margin-left: 0;
+}
+
+.about-afisha {
+  display:grid;
+  grid-template-columns: 1fr 220px;
+  margin: 0;
+  margin-left: 40px;
+  gap: 10px;
+}
+.photos img {
+  margin-top: 0;
+  margin-bottom: 0px;
+  
+}
+
+.afisha h2 {
+font-size: 1.4vw;
+
+}
+
+.angela-1 {
+  margin-top: 13px;
+  margin-bottom: 12px;
+}
+
+.greeting {
+  display:grid;
+  grid-template-columns: 270px 1fr 270px;
+justify-content: space-between;
+  margin: 40px;
+  gap: 10px;
+  ;
+}
+
+
+.studia {
+  display:grid;
+  grid-template-columns: 1fr 200px;
+  justify-content: space-between;
+  margin: 40px;
+  gap: 30px;
+
+}
+
+.greeting p {
+font-size: 1.3vw;
+  }
+
+.greeting-text {
+  padding: 0 10px 0 0;
+  text-align:center;
+}
+
+.greeting-text h2 {
+  font-size: 1.3vw;
+
+
+}
+
+.greeting img {
+margin-bottom: 0;
+
+}
+.about h2 {
+  margin-top: 0;
+
+}
+
+
+.about p {
+  margin: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+h4 {
+  margin-left: 40px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 1.3vw;
+}
+
+.studia p {
+
+  margin-top: 0;
+}
+
+
+h1 {
+  font-size: 26px;
+  margin: 20px 40px;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-size: 1.6vw;
+
+}
+
+
+ h2 {
+  margin: 40px;
+  margin-bottom: 0;
+  font-size: 1.8vw;
+}
+
+.card-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 0;
+  padding: 20px;
+  list-style: none;
+}
+
+.card {
+width: 350px;
+padding-top: 0 15px;
+margin-right: 50px;
+margin-bottom: 10px;
+
+}
+
+.truppa {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+  list-style: none;
+  padding-top: 10px;
+  padding-left: 40px;
+
+}
+
+.card-truppa {
+  width: 200px;
+padding: 20px;
+border: 1px solid #000C46;
+margin-right: 40px;
+margin-bottom: 20px;
+
+}
+
+.card-truppa p {
+  font-size: 1.2vw;
+  text-align: center;
+  color: #000C46;
+  font-weight: bold;
+}
+
+.card h2 {
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-align: center;
+  color: #000C46;
+}
+
+.bold {
+  font-weight: 700;
+  }
+
+.about a {
+  font-weight: bold;
+  color:#000C46;
+}
+
+h2 span {
+  font-size: 1.3vw;
+}
+
+@media (min-width: 1200px) {
+
+  main {
+font-size: 18px;
+
+  }
+
+  .site-header {
+
+  }
+  .greeting img {
+    width: 330px;
+  }
+
+  .greeting {
+    display:grid;
+    grid-template-columns: 330px 1fr 330px;
+  justify-content: space-between;
+    margin: 40px;
+    gap: 10px;
+    ;
+  }
+
+  .greeting p {
+    font-size: 1.7vw;
+      }
+    
+    .greeting-text {
+      padding: 0 10px 0 0;
+      text-align:center;
+    }
+    
+    .greeting-text h2 {
+      font-size: 2vw;
+    }
+
+    @font-face {
+      font-family: Cheque-Regular;
+      src: url(fonts/Cheque-Regular.otf);
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: Cheque-Regular;
+      src: url(fonts/Cheque-Regular.otf);
+      font-weight: 700;
+    }
+
+    @font-face {
+      font-family: Cheque-Black;
+      src: url(fonts/Cheque-Black.otf);
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: Cheque-Black;
+      src: url(fonts/Cheque-Black.otf);
+      font-weight: 700;
+    }
+    @font-face {
+      font-family: "Anticva-Regular";
+      src: url(fonts/Anticva-Regular.otf);
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "Anticva-Regular";
+      src: url(fonts/Anticva-Regular.otf);
+      font-weight: 700;
+    }
+
+    @font-face {
+      font-family: "antiqua_alfont";
+      src: url(fonts/antiqua_alfont.ttf);
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: "antiqua_alfont";
+      src: url(fonts/antiqua_alfont.ttf);
+      font-weight: 700;
+    }

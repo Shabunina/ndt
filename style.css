@@ -332,7 +332,7 @@ font-size: 18px;
     .greeting-text h2 {
       font-size: 2vw;
     }
-
+  }
     @font-face {
       font-family: Cheque-Regular;
       src: url(fonts/Cheque-Regular.otf);

@@ -35,6 +35,7 @@ h1, h2, h3 {
 .container {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .logo {
@@ -304,7 +305,6 @@ font-size: 18px;
 
   }
 
-  }
   .greeting img {
     width: 330px;
   }

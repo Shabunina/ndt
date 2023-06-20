@@ -332,12 +332,7 @@ font-size: 18px;
     }
   }
 
-  @media (min-width: 1500px) {
 
-    .site-header {
-    height: 400px;
-    }
-    }
     @font-face {
       font-family: Cheque-Regular;
       src: url(fonts/Cheque-Regular.otf);

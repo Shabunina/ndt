@@ -4,7 +4,7 @@ body {
   padding: 0;
   color: #000C46;
   font-family: "antiqua_alfont", "Times New Roman", serif;
-  font-size: 1.2vw;
+  font-size: 18px;
   line-height: 200%;
   text-transform: none;
 }
@@ -12,6 +12,8 @@ body {
 main {
   width: 1600px;
   margin: 0;
+  font-size: 26px;
+  font-family: "antiqua_alfont", "Times New Roman", serif;
 
 }
 
@@ -20,7 +22,7 @@ h1, h2, h3 {
 }
 
 .month {
-  font-size: 1.3vw;
+  font-size: 22px;
 
 }
 
@@ -36,7 +38,7 @@ h1, h2, h3 {
   font-family: 'Cheque-Regular', 'Times New Roman', serif;
   direction: rtl;
   padding-right: 40px;
-  font-size: 1.2vw;
+  font-size: 20px;
 }
 
 .container {
@@ -54,14 +56,14 @@ padding-right: 50px;
 
 .ndt {
   font-family: 'Cheque-Regular', 'Times New Roman', serif;
-    font-size: 5vw;
+    font-size: 90px;
     text-decoration: none;
 color: white;
 }
 
 .ndt-name pre {
   font-family: 'Cheque-Regular', 'Times New Roman', serif;
-  font-size: 2.5vw;
+  font-size: 40px;
   transform: rotate(-10deg);
   padding-top: 20px;
 }
@@ -86,6 +88,10 @@ margin-right: 60px;
   background-color: rgb(188, 192, 207, 0.7);
 }
 
+.main-page {
+  display: flex;
+  flex-direction: column;
+}
 
 .site-footer {
   background-color: #000C46;
@@ -146,7 +152,7 @@ margin-left: 40px;
 }
 
 .afisha h2 {
-font-size: 1.4vw;
+font-size: 26px;
 
 }
 
@@ -155,16 +161,35 @@ font-size: 1.4vw;
   margin-bottom: 12px;
 }
 
-.greeting {
-  display:grid;
-  grid-template-columns: 270px 1fr 270px;
-justify-content: space-between;
-  margin: 40px;
-  gap: 10px;
-  ;
-}
 
 
+  
+    .greeting img {
+      width: 330px;
+    }
+  
+    .greeting {
+      display:grid;
+      grid-template-columns: 330px 1fr 330px;
+    justify-content: space-between;
+      margin: 40px;
+      gap: 10px;
+      
+    }
+  
+    .greeting p {
+      font-size: 28px;
+        }
+      
+      .greeting-text {
+        padding: 0 10px 0 0;
+        text-align:center;
+      }
+      
+      .greeting-text h2 {
+        font-size: 30px;
+      }
+   
 .studia {
   display:grid;
   grid-template-columns: 1fr 200px;
@@ -174,25 +199,7 @@ justify-content: space-between;
 
 }
 
-.greeting p {
-font-size: 1.3vw;
-  }
 
-.greeting-text {
-  padding: 0 10px 0 0;
-  text-align:center;
-}
-
-.greeting-text h2 {
-  font-size: 1vw;
-
-
-}
-
-.greeting img {
-margin-bottom: 0;
-
-}
 .about h2 {
   margin-top: 0;
 
@@ -207,10 +214,12 @@ margin-bottom: 0;
 }
 
 h4 {
+  font-family: 'Cheque-Black', 'Times New Roman', serif;
+
   margin-left: 40px;
   margin-bottom: 0;
   margin-top: 10px;
-  font-size: 1.3vw;
+  font-weight: 700;
 }
 
 .studia p {
@@ -229,7 +238,6 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 40px;
-  font-size: 1.6vw;
 
 }
 
@@ -237,7 +245,6 @@ h3 {
  h2 {
   margin: 40px;
   margin-bottom: 0;
-  font-size: 1.8vw;
 }
 
 .card-list {
@@ -248,13 +255,13 @@ h3 {
   padding-top: 0;
   padding: 20px;
   list-style: none;
+  gap: 70px;
+
 }
 
 .card {
-width: 350px;
+width: 400px;
 padding-top: 0 15px;
-margin-right: 50px;
-margin-bottom: 10px;
 
 }
 
@@ -280,14 +287,14 @@ margin-bottom: 20px;
 }
 
 .card-truppa p {
-  font-size: 1.2vw;
+  font-size: 22px;
   text-align: center;
   color: #000C46;
   font-weight: bold;
 }
 
 .card h2 {
-  font-size: 1.2vw;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
   color: #000C46;
@@ -303,31 +310,33 @@ margin-bottom: 20px;
 }
 
 h2 span {
-  font-size: 1.3vw;
+  font-size: 24px;
 }
 
 
 
     @font-face {
-      font-family: Cheque-Regular;
+      font-family: 'Cheque-Regular';
       src: url(fonts/Cheque-Regular.otf);
       font-weight: 400;
     }
 
     @font-face {
-      font-family: Cheque-Regular;
+      font-family: 'Cheque-Regular';
+
       src: url(fonts/Cheque-Regular.otf);
       font-weight: 700;
     }
 
     @font-face {
-      font-family: Cheque-Black;
+      font-family: 'Cheque-Black';
       src: url(fonts/Cheque-Black.otf);
       font-weight: 400;
     }
 
     @font-face {
-      font-family: Cheque-Black;
+      font-family: 'Cheque-Black';
+
       src: url(fonts/Cheque-Black.otf);
       font-weight: 700;
     }
@@ -354,37 +363,6 @@ h2 span {
       font-weight: 700;
     }
 
-    @media (min-width: 1200px) {
 
-      main {
-    font-size: 18px;
-    
-      }
-    
-      .greeting img {
-        width: 330px;
-      }
-    
-      .greeting {
-        display:grid;
-        grid-template-columns: 330px 1fr 330px;
-      justify-content: space-between;
-        margin: 40px;
-        gap: 10px;
-        ;
-      }
-    
-      .greeting p {
-        font-size: 1.7vw;
-          }
-        
-        .greeting-text {
-          padding: 0 10px 0 0;
-          text-align:center;
-        }
-        
-        .greeting-text h2 {
-          font-size: 2vw;
-        }
-      }
+     
     

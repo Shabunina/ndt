@@ -316,7 +316,11 @@ h2 span {
 }
 
 
-
+.photos video {
+  margin-top: 0;
+  margin-bottom: 0px;
+  width: 500px;
+}
     @font-face {
       font-family: 'Cheque-Regular';
       src: url(fonts/Cheque-Regular.otf);
@@ -366,5 +370,4 @@ h2 span {
     }
 
 
-     
     

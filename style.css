@@ -207,10 +207,6 @@ font-size: 26px;
 }
 
 
-.photos img:hover {
-  width: 500px;
-}
-
 h4 {
   font-family: 'Cheque-Black', 'Times New Roman', serif;
 
@@ -289,6 +285,13 @@ margin-bottom: 20px;
   text-align: center;
   color: #000C46;
   font-weight: bold;
+}
+
+.card-truppa a {
+
+  font-family: "antiqua_alfont", "Times New Roman", serif;
+  color: #000C46;
+  font-size: 22px;
 }
 
 .card h2 {
